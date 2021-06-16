@@ -1,0 +1,5 @@
+person:
+  name: 维
+
+server:
+  port: 8080  #跟application 同时设置，则当前的为主！

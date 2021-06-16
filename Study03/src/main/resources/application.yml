@@ -1,0 +1,19 @@
+#静态资源是在 /static (or /public or /resources or /META-INF/resources
+#默认是/**
+#改变前：http://localhost:8080/kafka-CRUD.jpg
+#改变后：http://localhost:8080/res/kafka-CRUD.jpg
+# 请求进来，先去找Controller看能不能处理。不能处理的所有请求又都交给静态资源处理器。静态资源也找不到则响应404页面
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+
+#修改静态资源路径
+#  resources:
+#    static-locations: [classpath:/haha/]
+
+##开启RESTful风格
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true

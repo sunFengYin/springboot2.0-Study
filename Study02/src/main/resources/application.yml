@@ -1,0 +1,22 @@
+person:
+  boss: true
+  birth: 2021/06/08 20:34:34
+  age: 15
+  pet:
+    name: tomcat
+    weight: 23.4
+  interests:
+    - 学习
+    - 看书
+    - 吃饭
+  animal: [腿，脚]
+  score:
+    english: 10.0
+    math: 20
+
+  salarys: [234532,23523,5235]
+  allPets:
+    china:
+      - {name: wangzuxian,weight: 23.2}
+      - {name: lizi,weight: 45.2}
+  user-name: zhangsan
