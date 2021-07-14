@@ -12,6 +12,7 @@
         <module>Study01</module>
         <module>Study02</module>
         <module>Study03</module>
+        <module>others</module>
     </modules>
 
     <parent>
